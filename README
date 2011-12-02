@@ -1,0 +1,9 @@
+(1) Place the "metamaster" directory in the root of your project.
+(2) Place "$MetaMaster" within the <head> tag of your Page.ss template.
+(3) Run /dev/build?flush=all in SilverStripe.
+(4) Enter your global meta description and keywords in the two new fields under the "Metadata" tab of your site root
+	in the SilverStripe admin panel.
+	
+Please note:
+	(a) A meta descriptions in child pages will override the global description for that page.
+	(b) Additional meta keywords in child pages will be appended to the global keyword set.
